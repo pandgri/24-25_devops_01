@@ -2,8 +2,6 @@
 
 
 def suma(a: int, b: int) -> int:
-    """ docstring function
-    # debe dar errores en linter
-    """
+    """ docstring modificado """
     # x = "no se usa"
-    return a + b
+    return int(a) + int(b)
